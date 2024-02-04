@@ -1,4 +1,6 @@
-# avoid404，本项目供主要程序员使用，收集归纳因为网络原因，下载程序包，模型等失败的解决办法。不定期更新，
+# AVOID404
+本项目主要供程序员使用，收集归纳因为网络原因，下载程序包，模型等失败的解决办法。不定期更新，
+
 ## pip下载包加速
 ```
 pip3 config set global.index-url http://mirrors.aliyun.com/pypi/simple/
@@ -23,7 +25,7 @@ export HF_ENDPOINT=https://hf-mirror.com
 ```
 "registry-mirrors":["https://docker.mirrors.ustc.edu.cn/"]
 ```
-再更改后，daemon.json的内容示例如下：
+编辑后，daemon.json的内容示例如下：
 ```
 {
     "runtimes": {
